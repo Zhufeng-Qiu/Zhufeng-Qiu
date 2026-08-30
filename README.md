@@ -1,7 +1,7 @@
 <h1 align="center">Zhufeng (Zephyr) Qiu</h1>
 
 <p align="center">
-  <b>Full-stack development</b> -> <b>GPU systems</b> · <b>collective communication</b> · <b>high-performance LLM inference</b>
+  <b>Full-stack development</b> → <b>GPU systems</b> · <b>collective communication</b> · <b>high-performance LLM inference</b>
 </p>
 
 <p align="center">
