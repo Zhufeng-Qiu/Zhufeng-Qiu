@@ -33,6 +33,16 @@ Take one computation, implement it across every execution model I can reach — 
 
 The interesting results are usually the ones that came out the wrong way round.
 
+### [BoundRelay](https://github.com/Zhufeng-Qiu/bound_relay_study) · LLM KV-cache compression and transfer
+
+`Python` `PyTorch` `CUDA` `cuSZp` `SZ3` `CUDA zfp`
+
+**Fewer bytes ≠ less time.** A study of when KV-cache compression pays—and what it costs in downstream quality.
+
+- Across **360 paired comparisons**, roughly 3× compression reduced fsync-acknowledged write time by **26–49%**, but increased pipelined host-staged GPU-to-GPU transfer time to **1.52–2.33× raw**.
+- Replicated a **key/value compression-sensitivity asymmetry** on 32 held-out articles: at similar payload sizes, K-only compression raised mean teacher-forced NLL, while V-only compression did not.
+- Public code, measurements, frozen evaluation inputs, and a versioned corrections register.
+
 ### [Multi-GPU Similarity Engine](https://github.com/Zhufeng-Qiu/restaurant_recomendation_engine_study) &nbsp;·&nbsp; lossless collective compression
 
 `C++` `CUDA` `NCCL` `MPI` `OpenMP` `Nsight Systems`
